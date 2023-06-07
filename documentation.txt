@@ -1,0 +1,23 @@
+http://localhost:3000
+
+This endpoint is the most basic endpoint and is used to tell the current weather in the city of gwalior. 
+This is implemented just for testing purposes.
+
+
+
+Endpoint : 1
+
+http://localhost:3000/weather/city?location=gwalior
+
+This endpoint is used to tell the current weather of any city. If the city is not mentioned then it gives error. Also we can specify the
+units like standard , imperial and metric. By default the units are set to metric if not specified.
+
+
+
+Endpoint : 2
+
+http://localhost:3000/weather/coordinates?lat=26.2236&lon=78.1792
+
+This endpoint is used to tell the weather of a given set of coordinates for 3 days. If any of the coordinates are wrong or not specified then
+appropriate error message will be displayed.
+Also we can specify the units. By default it is set to metric if not specified.
