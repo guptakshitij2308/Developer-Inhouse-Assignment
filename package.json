@@ -1,0 +1,15 @@
+{
+  "name": "developer-inhouse-assignment",
+  "version": "1.0.0",
+  "description": "It is Restful Weather Forecast API that provides weather information at given location",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Kshitij Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
